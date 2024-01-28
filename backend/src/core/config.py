@@ -1,4 +1,6 @@
-from pydantic import BaseSettings
+from typing import List
+from pydantic_settings import BaseSettings
+from pydantic import AnyHttpUrl
 from decouple import config
 
 
